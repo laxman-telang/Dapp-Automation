@@ -1,5 +1,5 @@
 export type NetworkName = "testnet";
-export type ChainId = '0x128';
+export type ChainId = number;
 export type NetworkConfig = {
   network: NetworkName,
   jsonRpcUrl: string,
